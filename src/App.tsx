@@ -4,12 +4,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Button variant="contained" color="indigo">
+      <div className="App-header">
+        <div className="p-4 text-4xl">¡Bienvenido Agus!</div>
+        <Button variant="contained" color="emerald" className="p-40">
           {/* other options are success, warning, info, primary, secondary, error, indigo and emerald */}
-          Hola
+          Hola Agus
         </Button>
-      </header>
+      </div>
     </div>
   );
 }
