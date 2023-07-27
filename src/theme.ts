@@ -14,7 +14,7 @@ declare module "@mui/material/styles/createPalette" {
 }
 
 //This is to allow Material UI buttons have custom colors
-declare module "@mui/material/Button" {
+declare module "@mui/material" {
   interface ButtonPropsColorOverrides {
     emerald: true;
     indigo: true;
