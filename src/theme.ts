@@ -1,5 +1,6 @@
 import { createTheme } from "@mui/material/styles";
 
+//This is to allow Material UI have custom colors
 declare module "@mui/material/styles/createPalette" {
   interface Palette {
     emerald: PaletteColor;
@@ -12,6 +13,7 @@ declare module "@mui/material/styles/createPalette" {
   }
 }
 
+//This is to allow Material UI buttons have custom colors
 declare module "@mui/material/Button" {
   interface ButtonPropsColorOverrides {
     emerald: true;
@@ -19,6 +21,9 @@ declare module "@mui/material/Button" {
   }
 }
 
+export const rootElement = document.getElementById("root");
+
+// Declaring custom colors for Material UI
 export const theme = createTheme({
   palette: {
     emerald: {

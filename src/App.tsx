@@ -1,13 +1,11 @@
 import { Button } from "@mui/material";
-import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
+    <div className="flex min-h-screen text-center bg-slate-800 text-white justify-center items-center">
+      <div className="flex-col">
         <div className="p-4 text-4xl">¡Bienvenido Agus!</div>
-        <Button variant="contained" color="emerald" className="p-40">
-          {/* other options are success, warning, info, primary, secondary, error, indigo and emerald */}
+        <Button variant="contained" color="indigo" className="px-32">
           Hola Agus
         </Button>
       </div>
